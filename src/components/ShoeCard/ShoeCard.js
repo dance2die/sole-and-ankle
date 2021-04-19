@@ -49,6 +49,7 @@ const ShoeCard = ({
         </Row>
         <Row>
           <ColorInfo>{pluralize("Color", numOfColors)}</ColorInfo>
+          {variant === "on-sale" && <SalePrice>${salePrice / 100}</SalePrice>}
         </Row>
       </Wrapper>
     </Link>
