@@ -71,7 +71,16 @@ const NewReleaseLabel = styled.span`
   font-weight: bold;
 `;
 
-const SaleLabel = styled.span``;
+const SaleLabel = styled.span`
+  position: absolute;
+  top: 8px;
+  right: -8px;
+  background-color: ${COLORS.primary};
+  color: ${COLORS.white};
+  font-size: 0.8rem;
+  padding: 8px;
+  font-weight: bold;
+`;
 
 const Link = styled.a`
   text-decoration: none;
